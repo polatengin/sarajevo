@@ -1,2 +1,4 @@
 name: ci_backend
 
+on:
+  workflow_dispatch:
