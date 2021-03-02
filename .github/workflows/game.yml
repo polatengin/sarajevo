@@ -3,3 +3,5 @@ name: ci_game
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
