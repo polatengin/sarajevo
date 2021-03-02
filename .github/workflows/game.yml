@@ -1,1 +1,4 @@
 name: ci_game
+
+on:
+  workflow_dispatch:
