@@ -13,3 +13,9 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Unity - Builder
+        uses: game-ci/unity-builder@v2.0-alpha-6
+        with:
+          targetPlatform: "WebGL"
+          projectPath: "game"
