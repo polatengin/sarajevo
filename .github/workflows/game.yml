@@ -15,7 +15,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Unity - Request Activation File
-        uses: game-ci/unity-request-activation-file@v2.0-alpha-1
+        id: getManualLicenseFile
+        uses: game-ci/unity-request-activation-file@v2
 
       - uses: actions/upload-artifact@v2
         with:
