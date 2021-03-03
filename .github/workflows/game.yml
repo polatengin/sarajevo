@@ -19,5 +19,5 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          targetPlatform: "WebGL"
+          targetPlatform: "android"
           projectPath: "game"
